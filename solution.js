@@ -47,21 +47,38 @@ export function bagi(a, b) {
  * @param {number} b
  * @returns {number}
  */
-export function pangkat(a, b) {}
+export function pangkat(a, b) {
+  return a ** b;
+}
 
 /**
  * Mengembalikan faktorial dari sebuah angka.
  * @param {number} n
  * @returns {number}
  */
-export function faktorial(n) {}
+export function faktorial(n) {
+  if (n === 0) {
+    return 1;
+  }
+  return n * faktorial(n - 1);
+}
 
 /**
  * Mengembalikan true jika angka adalah bilangan prima, false jika tidak.
  * @param {number} n
  * @returns {boolean}
  */
-export function isPrima(n) {}
+export function isPrima(n) {
+  if (n <= 1) {
+    return false;
+  }
+  for (let i = 2; i <= Math.sqrt(n); i++) {
+    if (n % i === 0) {
+      return false;
+    }
+  }
+  return true;
+}
 
 /**
  * Mengembalikan hasil dari a modulus b.
@@ -72,13 +89,9 @@ export function isPrima(n) {}
  * @param {number} b
  * @returns {number}
  */
-export function modulus(a, b) {}
-
-/**
- * Mengembalikan nilai absolut dari sebuah angka.
- * @param {number} a
- * @returns {number}
- */
+export function modulus(a, b) {
+  return a % b;
+}
 export function absolut(a) {}
 
 /**
