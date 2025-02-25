@@ -1,5 +1,10 @@
 # Tugas Praktikum: Implementasi Fungsi Matematika dalam Node.js
 
+## **Anggota Kelompok**
+1. **Shofia Nurul Huda  2208107010015**
+2. **Nisa Rianti        2208107010016**
+3. **Jihan Nabilah      2208107010035**
+
 ## **Deskripsi Tugas**
 Praktikan diharapkan membaca README ini dengan saksama sebelum mengerjakan tugas.
 
@@ -32,6 +37,37 @@ Jika semua fungsi telah diimplementasikan dengan benar, seluruh pengujian akan l
 
 ---
 
+## **Hasil Menjalankan Tes**
+
+Berikut hasil menjalankan `npm run test`:
+
+```bash
+> tugas1@1.0.0 test
+> node test/test.js
+
+Tes fungsi tambah selesai: Semua benar
+Tes fungsi kurang selesai: Semua benar
+Tes fungsi kali selesai: Semua benar
+Tes fungsi bagi selesai: Semua benar
+Tes fungsi pangkat selesai: Semua benar
+Tes fungsi faktorial selesai: Semua benar
+Tes fungsi isPrima selesai: Semua benar
+Tes fungsi modulus selesai: Semua benar
+Tes fungsi absolut selesai: Semua benar
+Tes fungsi maksimum selesai: Semua benar
+Tes fungsi minimum selesai: Semua benar
+Tes fungsi bulatkan selesai: Semua benar
+
+Hasil akhir:
+Jumlah tes yang benar: 24
+Jumlah tes yang salah: 0
+Jumlah fungsi yang benar (semua tes berhasil): 12
+Jumlah fungsi yang salah (ada tes yang gagal): 0
+Semua tes selesai.
+```
+
+---
+
 ## **Tugas Utama: Membuat Kalkulator Sederhana**
 Selain melengkapi `solution.js`, praktikan juga diminta untuk membuat sebuah **program kalkulator sederhana** dengan memanfaatkan minimal 5 fungsi dari `solution.js`.
 
@@ -52,6 +88,35 @@ Selain melengkapi `solution.js`, praktikan juga diminta untuk membuat sebuah **p
    ```
 
 4. Ikuti petunjuk interaksi yang muncul di terminal untuk menggunakan kalkulator.
+
+---
+
+## **Hasil Pembangunan Kalkulator Sederhana**
+
+Berikut tampilan CLI kalkulator Sederhana yang berhasil kami bangun yang menyediakan 12 fungsi:
+
+```bash
+=====================================
+         KALKULATOR SEDERHANA       
+=====================================
+1. Penjumlahan
+2. Pengurangan
+3. Perkalian
+4. Pembagian
+5. Pangkat
+6. Faktorial
+7. Cek Bilangan Prima
+8. Modulus
+9. Nilai Absolut
+10. Nilai Maksimum
+11. Nilai Minimum
+12. Pembulatan
+0. Keluar
+=====================================
+Pilih operasi (0-12):
+```
+
+user dapat memilih salah satu operasi dari 12 operasi yang tersedia
 
 ---
 
