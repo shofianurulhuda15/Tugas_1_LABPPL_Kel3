@@ -72,6 +72,27 @@ function absolut(a) {
     return Math.abs(a);
 }
 
+/**
+ * Mengembalikan nilai terbesar dari dua angka.
+ */
+function maksimum(a, b) {
+    return Math.max(a, b);
+}
+
+/**
+ * Mengembalikan nilai terkecil dari dua angka.
+ */
+function minimum(a, b) {
+    return Math.min(a, b);
+}
+
+/**
+ * Mengembalikan hasil dari a dibulatkan ke bilangan bulat terdekat.
+ */
+function bulatkan(a) {
+    return Math.round(a);
+}
+
 // Export hasil akhir
 module.exports = {
     tambah,
@@ -83,4 +104,7 @@ module.exports = {
     isPrima,
     modulus,
     absolut,
+    maksimum,
+    minimum,
+    bulatkan
 };
