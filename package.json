@@ -10,5 +10,13 @@
   },
   "author": "",
   "license": "ISC",
-  "description": ""
+  "description": "Praktikan diharapkan membaca README ini dengan saksama sebelum mengerjakan tugas.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Praktikum-PPL-USK/Tugas-1.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Praktikum-PPL-USK/Tugas-1/issues"
+  },
+  "homepage": "https://github.com/Praktikum-PPL-USK/Tugas-1#readme"
 }
