@@ -1,29 +1,24 @@
 /**
  * Mengembalikan hasil penjumlahan dua angka.
- * @param {number} a 
- * @param {number} b 
- * @returns {number}
  */
 function tambah(a, b) {
+    return a + b;
 }
 
 /**
  * Mengembalikan hasil pengurangan dua angka.
- * @param {number} a 
- * @param {number} b 
- * @returns {number}
  */
 function kurang(a, b) {
+    return a - b;
 }
 
 /**
  * Mengembalikan hasil perkalian dua angka.
- * @param {number} a 
- * @param {number} b 
- * @returns {number}
  */
 function kali(a, b) {
+    return a * b;
 }
+
 
 /**
  * Mengembalikan hasil pembagian dua angka.
@@ -108,3 +103,8 @@ function bulatkan(a) {
 }
 
 // Export hasil akhir
+module.exports = {
+    tambah,
+    kurang,
+    kali,
+};
